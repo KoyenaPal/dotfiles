@@ -9,4 +9,4 @@ cd /root/MedCalc-Bench && uv pip install -e .
 uv pip install wandb
 uv pip install nnsight
 
-wandb login $RUNPOD_SECRET_WANDB
+wandb login $RUNPOD_WB_TOKEN
