@@ -23,5 +23,5 @@ source /root/.venv/bin/activate
 if [ -z "$RUNPOD_SECRET_HF" ]; then
     huggingface-cli login --add-to-git-credential
 else
-    huggingface-cli login --token $RUNPOD_SECRET_HF --add-to-git-credential
+    huggingface-cli login --token $RUNPOD_HF_TOKEN --add-to-git-credential
 fi
