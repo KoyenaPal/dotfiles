@@ -2,7 +2,7 @@ source dotfiles/runpod.sh
 
 # Repos I'm using at the moment
 git clone https://github.com/KoyenaPal/MedCalc-Bench.git
-
+git clone https://github.com/KoyenaPal/instruction-induction.git
 cd /root/MedCalc-Bench
 source ~/.venv/bin/activate
 
